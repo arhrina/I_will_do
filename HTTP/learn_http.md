@@ -51,7 +51,7 @@ http://user:pass@www.example.kr:80/dir/index.htm?udi=1#ch1
 ### HTTP의 상태코드
 * 상태코드로 http는 리퀘스트 결과를 전달한다
 
-1xx : 리퀘스트를 받아들여 처리
+1xx : 리퀘스트를 받아들여 처리<br>
 2xx : 정상처리
 200 완료
 204 돌려줄 리소스가 없음
