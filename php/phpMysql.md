@@ -12,9 +12,9 @@ Hypertext Preprocessor. HTML문서를 동적으로 생성하여 화면을 빠르
 다양한 라이브러리 지원<br>
 객체지향</h5>
 
-\https://www.apachefriends.org에서 XAMPP 홈페이지에 XHAMPP 설치하여 Apache, PHP를 설치
+https://www.apachefriends.org  에서 XAMPP 홈페이지에 XHAMPP 설치하여 Apache, PHP를 설치
 JRE 설치
-\https://netbeans.org/downloads에서 NetBeans로 IDE를 설치(JRE 설치가 선행되어야 함)
+https://netbeans.org/downloads  에서 NetBeans로 IDE를 설치(JRE 설치가 선행되어야 함)
 
 ## Apache 설정
 ### httpd.conf 설정
@@ -108,3 +108,24 @@ and, or, xor, !, &&, ||
 
 ### 실행연산자
 명령을 `로 묶어 실행시킨다
+
+
+
+## HTML 태그와 함께 사용하여 form method를 POST하고 action을 php파일로 지정하여, 해당 php파일에서 $_POST["name"]으로 값을 받아 쓸 수 있다
+## class라는 키워드를 사용해 객체지향 언어(특히 java)처럼 사용할 수 있다
+### 오브젝트 변수(클래스에서 생성된 인스턴스)->메서드();하여 메서드를 사용한다
+### java와 마찬가지로 접근 제한 키워드들이 존재한다. 단, public, private, protected만 존재하며 아무것도 입력하지 않으면 기본값으로 public이다
+
+### 클래스의 상속은 class 새로운클래스명(서브클래스) extends 상속할클래스명(슈퍼클래스) 로 클래스 선언시에 사용한다
+### 오버라이드하려면 private으로 만든것들만 가능(?)
+### final 키워드를 추가하면 오버라이드, 상속을 금지할 수 있다
+
+## traits
+### 상속과는 다른 방법으로 코드를 재사용. 인스턴스를 작성할 수는 없지만 다중상속처럼 사용할 수 있다
+### 이름이 같은 메서드가 존재한다면 우선순위가 높은 메서드를 오버라이드한다. 클래스 메서드>트레이트 메서드>상속한 메서드
+
+### trait 트레이트명{ 내부구현 } 하여 사용
+### 트레이트로 선언한 메서드를 쓰려면 클래스 내부에서 use 트레이트명을 지정한다
+
+## Iterator
+### design pattern 중 하나. 반복자를 사용
