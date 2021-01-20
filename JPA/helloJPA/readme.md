@@ -10,6 +10,7 @@ Hibernate를 구현체로 갖는다</h4>
 
 
 <hr/>
+
 ### 영속성 컨텍스트
   * JPA에 있어서 알파이자 오메가
   * EntityManager를 관리
